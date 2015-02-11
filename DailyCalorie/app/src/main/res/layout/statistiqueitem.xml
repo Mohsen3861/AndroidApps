@@ -1,0 +1,41 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/background2">
+
+    <TextView
+        android:id="@+id/itemname3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="16dp"
+        android:text="name"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#ff000000" />
+
+    <TextView
+        android:id="@+id/itemdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textColor="#ff4536b7"
+        android:layout_below="@+id/itemcalorie"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/itemcalorie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Small Text"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#ff363636"
+        android:layout_below="@+id/itemname3"
+        android:layout_alignLeft="@+id/itemname3"
+        android:layout_alignStart="@+id/itemname3" />
+
+</RelativeLayout>
+
+

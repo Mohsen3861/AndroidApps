@@ -1,0 +1,63 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="graphes.Graphes"
+    android:background="@drawable/graphbg">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aliments"
+        android:id="@+id/GrapheAliments"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="51dp"
+        android:onClick="alimentClick"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="#9635ff0a"
+        android:textSize="20dp"
+        android:textStyle="bold|italic"
+        android:padding="10dp"
+        android:textColor="#ff2a2a2a" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Activités"
+        android:id="@+id/GrapheActivites"
+        android:layout_marginTop="31dp"
+        android:layout_below="@+id/GrapheAliments"
+        android:onClick="activitesClick"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="#96ff121b"
+        android:textSize="20dp"
+        android:textStyle="bold|italic"
+        android:padding="10dp"
+        android:textColor="#ff2a2a2a" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total"
+        android:id="@+id/GrapheTotal"
+        android:layout_marginTop="37dp"
+        android:layout_below="@+id/GrapheActivites"
+        android:onClick="totalClick"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="#c8fffe00"
+        android:textSize="20dp"
+        android:textStyle="bold|italic"
+        android:padding="10dp"
+        android:textColor="#ff2a2a2a" />
+</RelativeLayout>

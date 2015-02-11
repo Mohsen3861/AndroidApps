@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DailyCalorie</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_main_activity2">La quantité</string>
+    <string name="action_settings">Effacer tous</string>
+    <string name="title_activity_main_activity_search">MainActivitySearch</string>
+    <string name="title_activity_statistique">Statistiques</string>
+    <string name="title_activity_liste_categorie">Les categories</string>
+    <string name="title_activity_date_show">Les dates</string>
+    <string name="title_activity_main_menu">Accueil</string>
+    <string name="title_activity_main_activity3">Acceuil</string>
+    <string name="NomAppMenu">Daily Calorie</string>
+    <string name="nomStatistique">nome</string>
+    <string name="title_activity_activity_liste">La liste</string>
+    <string name="title_activity_time">Le temps</string>
+    <string name="title_activity_user_data_get">Les informations</string>
+    <string name="title_activity_graphes">Graphes</string>
+    <string name="title_activity_splash_screen">Daily Calories</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+</resources>
